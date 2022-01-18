@@ -1,0 +1,20 @@
+#text-notice {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	padding: 10px;
+	background: #fff;
+	z-index: 999999;
+}
+
+.global-nav__primary-items li:first-child {
+	display: none;
+}        
+
+main div[data-id^="urn:li:activity"] {
+	display: none;
+}
+
+main .artdeco-dropdown {
+	display: none;
+}
